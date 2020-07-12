@@ -3,8 +3,8 @@ def turn_count(board)
   count = 0
   board.each do |turn|
     puts "#{turn}"
-  until counter == 9
-    counter += 1
+  until count == 9
+    count += 1
   end
 end
 end
