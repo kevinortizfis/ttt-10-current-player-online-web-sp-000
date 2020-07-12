@@ -1,10 +1,10 @@
 board = [" "," "," "," "," "," "," "," "," "]
 def turn_count(board)
-  turn = 0
+  count = 0
   board.each do |turn|
     if turn == " "
       puts turn
-      turn += 1
+      count += 1
     end
   end
 end
