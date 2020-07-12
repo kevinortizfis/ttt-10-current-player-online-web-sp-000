@@ -1,6 +1,6 @@
 players = ["X","O"]
 board = [" "," "," "," "," "," "," "," "," "]
-def turn_count(players)
+def turn_count(board)
   turn = 0
   until turn >= 9
     players.each do |player|
@@ -9,4 +9,5 @@ def turn_count(players)
     end
   end
 end
-turn_count(players)
+turn_count(board)
+
