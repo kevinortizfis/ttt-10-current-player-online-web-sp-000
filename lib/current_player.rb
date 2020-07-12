@@ -6,6 +6,7 @@ def turn_count(players)
     puts "It is #{player}'s turn."
     if turn <= 9
       turn += 1
+    end
   end
 end
 turn_count(players)
