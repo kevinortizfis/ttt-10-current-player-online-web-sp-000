@@ -3,7 +3,7 @@ def turn_count(board,index)
   counter = 0
   board.each do |turn|
     if turn == " "
-      puts "#{turn.counter}"
+      puts "#{turn.index}"
        counter += 1
     end
   end
