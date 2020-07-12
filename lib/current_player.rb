@@ -5,3 +5,4 @@ def turn_count(board)
     puts "It is #{player}'s turn."
     until player == 10
   end
+end
