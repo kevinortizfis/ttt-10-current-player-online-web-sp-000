@@ -11,4 +11,3 @@ def turn_count(players)
 end
 turn_count(players)
 
-current_player(board)
