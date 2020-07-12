@@ -9,13 +9,3 @@ def turn_count(board)
   end
   end
 end
-
-def current_player(board)
-  turn = 0
-  until turn >= 9
-    board.each do |player|
-      puts "#{player}"
-      turn += 1
-    end
-  end
-end
