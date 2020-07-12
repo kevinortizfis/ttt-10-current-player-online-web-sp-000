@@ -11,7 +11,7 @@ end
 end
 turn_count(board)
 
-def current_player(board)
+def current_player(players)
   turn = 0
   until turn >= 9
     players.each do |player|
