@@ -1,14 +1,7 @@
 board = [" "," "," "," "," "," "," "," "," "]
 def turn_count(board)
-  count = 0
   board.each do |turn|
-    puts "#{turn.length}"
-  until count == 9
-    count += 1
-  end
-end
-end
-turn_count(board)
+    if 
 
 def current_player(board)
   turn = 0
