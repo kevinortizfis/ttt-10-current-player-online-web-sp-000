@@ -1,4 +1,6 @@
 board = [" "," "," "," "," "," "," "," "," "]
+board1 = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
+
 def turn_count(board)
   counter = 1
   board.each do |turn|
