@@ -15,4 +15,5 @@ def current_player(board)
   if turn_count(board).to_i % 2 == 0
     puts "X"
   end
+  current_player(board)
 end
