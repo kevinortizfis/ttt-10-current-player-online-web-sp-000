@@ -1,4 +1,3 @@
-players = ["X","O"]
 board = [" "," "," "," "," "," "," "," "," "]
 def turn_count(board)
   count = 0
