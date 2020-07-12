@@ -10,4 +10,3 @@ def turn_count(players)
   end
 end
 turn_count(players)
-
