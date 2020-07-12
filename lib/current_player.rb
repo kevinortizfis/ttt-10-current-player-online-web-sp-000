@@ -8,6 +8,7 @@ def turn_count(board)
     puts "#{counter}"
     counter += 1
   end
+  end
 end
 turn_count(board1)
 
