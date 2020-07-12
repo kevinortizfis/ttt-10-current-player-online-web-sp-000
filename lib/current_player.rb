@@ -5,4 +5,4 @@ def turn_count(players)
     puts "It is #{players}'s turn."
   end
 end
-turn_count(board)
+turn_count(players)
