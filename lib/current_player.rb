@@ -15,7 +15,7 @@ def current_player(board)
   turn = 0
   until turn >= 9
     players.each do |player|
-      puts "It is #{player}'s turn."
+      puts "#{player}"
       turn += 1
     end
   end
