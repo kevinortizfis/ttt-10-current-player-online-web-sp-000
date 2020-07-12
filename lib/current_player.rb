@@ -7,4 +7,5 @@ def turn_count(board)
   until counter == 9
   end
 end
+end
 turn_count(board)
