@@ -9,4 +9,4 @@ def turn_count(board)
   end
 end
 end
-turn(board)
+turn_count(board)
