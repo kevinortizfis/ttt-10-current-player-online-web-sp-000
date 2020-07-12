@@ -18,4 +18,3 @@ def current_player(board)
   end
   current_player
 end
-current_player(board)
