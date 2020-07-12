@@ -1,8 +1,8 @@
-players = ["X","O"]
 board = [" "," "," "," "," "," "," "," "," "]
 def turn_count(board)
   turn = 0
   until turn >= 9
+    players = ["X","O"]
     players.each do |player|
       puts "It is #{player}'s turn."
       turn += 1
