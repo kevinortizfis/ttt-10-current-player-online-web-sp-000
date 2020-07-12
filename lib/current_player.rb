@@ -1,7 +1,6 @@
 board = [" "," "," "," "," "," "," "," "," "]
 def turn_count(board,index)
   counter = 0
-  index = counter
   board.each do |turn|
     if turn == " "
       puts "#{turn[counter]}"
