@@ -12,7 +12,7 @@ end
 
 turn_count(board)
 
-def turn_cdef turn_count(board)
+def current_player(board)
   count = 0
   board.each do |turn|
     puts "#{turn}"
