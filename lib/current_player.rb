@@ -5,6 +5,9 @@ def turn_count(board)
     if turn == " "
       puts turn
       turn += 1
+    end
+  end
+end
 
 def current_player(board)
   turn = 0
