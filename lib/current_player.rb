@@ -13,6 +13,6 @@ end
 
 def current_player(board)
   if turn_count(board).to_i % 2 == 0
-    X
+    "X"
   end
 end
