@@ -6,3 +6,5 @@ def turn_count(board)
     until player == 10
       player += 1
   end
+end
+end
