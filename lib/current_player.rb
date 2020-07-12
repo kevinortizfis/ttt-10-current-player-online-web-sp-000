@@ -4,5 +4,6 @@ def turn_count(board)
   players.each |player| do
     puts "It is #{player}'s turn."
     until player == 10
+      count += 1
   end
 end
